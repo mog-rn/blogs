@@ -1,10 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import {Container, Box, Grid, Typography, CssBaseline } from '@material-ui/core'
+import Header from '../components/Header'
 
 const Index = () => {
-	const classes = useStyles();
+	{/*const classes = useStyles();*/}
 	return (
-	   <React.fragment>
+	   <React.Fragment>
 		<CssBaseline />
 		<Header />
 		<Container maxWidth="lg" className="{classes.container}">
@@ -23,3 +25,5 @@ const Index = () => {
 	)
 
 }
+
+export default Index;
