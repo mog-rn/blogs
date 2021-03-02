@@ -3,8 +3,13 @@ import ReactDOM from 'react-dom'
 import {Container, Box, Grid, Typography, CssBaseline } from '@material-ui/core'
 import Header from '../components/Header'
 
+const useStyles = makeStyles({
+	root: {},  //a style rule
+	label: {} //a nested style rule
+
+})
 const Index = () => {
-	{/*const classes = useStyles();*/}
+	const classes = useStyles()
 	return (
 	   <React.Fragment>
 		<CssBaseline />
