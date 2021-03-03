@@ -27,3 +27,8 @@ export async function getPostBySlug(slug) {
 	   content: content
 	}
 }
+
+export async function getConfig() {
+	const config = await import(`../config.yml`)
+	return yaml.safeLoad(config.default)
+}
