@@ -24,7 +24,6 @@
     "@mdx-js/loader": "^1.6.22",
     "@next/mdx": "^10.0.7",
     "next": "^10.0.7",
-    "raw-loader": "^4.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-responsive-carousel": "^3.2.12",
@@ -35,7 +34,8 @@
     "babel-plugin-preval": "^5.0.0",
     "gray-matter": "^4.0.2",
     "js-yaml": "^3.14.1",
-    "marked": "^2.0.1"
+    "marked": "^2.0.1",
+    "raw-loader": "^4.0.2"
   },
   "browserslist": {
     "production": [
