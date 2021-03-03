@@ -1,6 +1,6 @@
 import Head from 'next/head '
-import Header from '@includes/Header'
-import Footer from '@includes/Footer'
+import Header from '@includes/header'
+import Footer from '@includes/footer'
 
 
 export default function DefaultLayouts(props) {
