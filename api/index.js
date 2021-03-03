@@ -1,5 +1,6 @@
 import matter from 'gray-matter'
 import marked from 'marked'
+import yaml from 'js-yaml'
 
 
 export async function getAlllPosts() {
