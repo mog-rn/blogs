@@ -33,7 +33,9 @@
   "devDependencies": {
     "babel-plugin-macros": "^3.0.1",
     "babel-plugin-preval": "^5.0.0",
-    "gray-matter": "^4.0.2"
+    "gray-matter": "^4.0.2",
+    "js-yaml": "^3.14.1",
+    "marked": "^2.0.1"
   },
   "browserslist": {
     "production": [
