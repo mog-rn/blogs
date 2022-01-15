@@ -34,7 +34,7 @@
     "babel-plugin-preval": "^5.0.0",
     "gray-matter": "^4.0.2",
     "js-yaml": "^3.14.1",
-    "marked": "^2.0.1",
+    "marked": "^4.0.10",
     "raw-loader": "^4.0.2"
   },
   "browserslist": {
